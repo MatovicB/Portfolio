@@ -1,0 +1,289 @@
+  /* Responsive styles */
+  @media screen and (max-width: 1286px) {
+    /* START NAV */
+    .logo a{
+        font-size: 36px;
+    }
+    .nav-links a {
+        font-size: 18px;
+      }
+    /* END NAV */
+
+ /*START MY SERVICE*/
+      .service-container {
+        padding: 0 40px;
+      }
+      
+      .service-block {
+        margin-bottom: 30px;
+        width: 45%;
+      }
+      
+      .icon {
+        font-size: 60px;
+      }
+      
+      .service-block h3 {
+        font-size: 30px;
+      }
+      .service-block p{
+        font-size: 20px;
+      }
+      .content h1 {
+        font-size: 36px;
+      }
+    
+      .content h2 {
+        font-size: 30px;
+      }
+    
+      .content p {
+        font-size: 18px;
+      }
+      
+ /*END MY SERVICE*/
+ /* START MY SKILLS */
+      .my-skills {
+        flex-wrap: wrap;
+      }
+
+      .skill {
+        margin-bottom: 20px;
+      }
+      .skill i{
+        font-size: 66px;
+      }
+      .skill p{
+        font-size:22px;
+      }
+ /* END MY SKILLS */
+ /* START MY PROJECTS */
+ .project {
+    width: 45%;
+  }
+  /* END MY PROJECTS */
+
+  /* START ABOUT ME*/
+
+  .about-me-tekst h2{
+    font-size: 25px;
+  }
+  .about-me-tekst p{
+    font-size: 20px;
+  }
+  .about-me-block{
+    width: 400px;
+  }
+  .about-me-tekst{
+    width: 80%;
+  }
+  
+  /* END ABOUT ME*/
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* START NAV */
+    nav{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .logo a{
+        font-size: 30px;
+    }
+    .nav-links a {
+      font-size: 14px;
+    }
+    .nav-links li {
+      margin: 10px 6px;
+    }
+    /* END NAV */
+    /*START MY SERVICE*/
+    .service-container {
+      padding: 0 20px;
+    }
+    .service-block{
+      width: 65%;
+    }
+    
+    .icon {
+      font-size: 48px;
+    }
+    
+    .service-block h3 {
+      font-size: 24px;
+    }
+    
+    .service-block p {
+      font-size: 16px;
+    }
+  content h1 {
+    font-size: 30px;
+  }
+
+  .content h2 {
+    font-size: 24px;
+  }
+
+  .content p {
+    font-size: 16px;
+  }
+ /*END MY SERVICE*/
+
+  /* START MY SKILLS */
+  .skill i {
+    font-size: 32px;
+  }
+  
+  .skill p {
+    font-size: 14px;
+  }
+   /* END MY SKILLS */
+/* START MY PROJECTS */
+.project {
+    width: 80%;
+    margin: 20px;
+  }
+/* END MY PROJECTS */
+
+/*START ABOUT ME*/
+.about-me{
+  height: auto;
+}
+.about-me-block{
+  left: 0%;
+  top:0px;
+  width: 90%;
+  height: 430px;
+}
+.about-me-photo{
+  width: 70%;
+  height: 200px;
+}
+.left-about-me{
+  width: 50%;
+  background-color: #fff;
+}
+.right-about-me{
+  width: 50%;
+}
+.about-me-tekst{
+  margin: 0px auto;
+  width: 90%;
+  padding: 0px;
+}
+.about-me-tekst h2{
+  font-size: 22px;
+  color: #CBA82A;
+}
+.about-me-tekst p{
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.about-me-heading h2{
+  font-size:26px;
+}
+.about-me-heading h3{
+  font-size:22px;
+}
+
+/*END ABOUT ME*/
+
+/* START FOOTER */
+footer{
+  font-size: 12px;
+}
+footer ul li a{
+  margin:10px;
+  color: #fff;
+}
+/* END FOOTER */
+
+ .title {
+  font-size: 30px;
+}
+
+  }
+  
+  @media screen and (max-width: 392px) {
+    /* START NAV */
+    .logo a {
+      font-size: 26px;
+    }
+    .nav-links a {
+      font-size: 10px;
+    }
+/* START NAV */
+/* START HOMEPAGE */ 
+    .content h1 {
+      font-size: 24px;
+    }
+  
+    .content h2 {
+      font-size: 20px;
+    }
+  
+    .content p {
+      font-size: 14px;
+    }
+/* END HOMEPAGE */
+/*START MY SERVICE*/
+    .icon {
+      font-size: 24px;
+    }
+    .service-block{
+      width: 100%;
+    }
+    .service-block h3 {
+      font-size: 16px;
+      margin:16px;
+    }
+    
+    .service-block p {
+      font-size: 12px;
+    }
+/*END MY SERVICE*/
+/* START MY SKILLS */
+.skill i {
+  font-size: 28px;
+}
+
+.skill p {
+  font-size: 12px;
+}
+/* END MY SKILLS */
+/* START ABOUT ME */
+.about-me{
+  flex-direction: column;
+}
+.left-about-me{
+  width: 80%;
+  margin: 20px auto;
+}
+.right-about-me{
+  width: 80%;
+  margin: 20px auto;
+}
+.about-me-tekst h2{
+  margin: 10px;
+}
+.about-me-tekst p{
+  padding: 50px 0px;
+  font-size:16px;
+}
+
+/* END ABOUT ME */
+
+/* START FOOTER */
+footer{
+  font-size: 10px;
+}
+footer ul li a{
+  margin:8px;
+  color: #fff;
+}
+/* END FOOTER */
+
+    .title {
+      font-size: 24px;
+    }
+  }

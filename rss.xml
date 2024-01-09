@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+    <channel>
+        <title>Obavestenja</title>
+        <link>https://bobanmatovic.000webhostapp.com</link>
+        <description>Ovde se nalaze obaveštenja mog portfolia.</description>
+
+        <item>
+            <title>Ažurirana stranica</title>
+            <link>https://bobanmatovic.000webhostapp.com/index.html</link>
+            <description>Dodati su novi projekti</description>
+        </item>
+    </channel>
+</rss>
